@@ -19,7 +19,7 @@ Translations: [English](README.md) | [简体中文](README_zh.md)
 
 Kratos 一套轻量级 Go 微服务框架，包含大量微服务相关功能及工具。  
 
-> 名字来源于:《战神》游戏以希腊神话为背景，讲述由凡人成为战神的奎托斯（Kratos）成为战神并展开弑神屠杀的冒险历程。
+> 名字来源于:《战神》游戏以希腊神话为背景，讲述奎托斯（Kratos）由凡人成为战神并展开弑神屠杀的冒险经历。
 
 ## Goals
 
@@ -49,7 +49,7 @@ Kratos 一套轻量级 Go 微服务框架，包含大量微服务相关功能及
 * [Transport](transport/transport.go) ：通用的 [HTTP](https://github.com/go-kratos/examples/http/middlewares) /[gRPC](https://github.com/go-kratos/examples/middleware/main.go) 传输层，实现统一的 [Middleware](middleware) 插件支持；
 * [Registry](https://github.com/go-kratos/examples/registry) ：实现统一注册中心接口，可插件化对接各种注册中心；
 * [Validation](https://github.com/go-kratos/examples/validate): 通过Protobuf统一定义校验规则，并同时适用于HTTP/gRPC服务.
-* [SwaggerAPI](https://github.com/go-kratos/swagger-api/blob/main/examples/helloworld/server/main.go): 通过集成第三方[Swagger插件](https://github.com/go-kratos/swagger-api) 能够自动生成Swagger API json并启动一个内置的Swaager UI服务.
+* [SwaggerAPI](https://github.com/go-kratos/swagger-api/blob/main/examples/helloworld/server/main.go): 通过集成第三方[Swagger插件](https://github.com/go-kratos/swagger-api) 能够自动生成Swagger API json并启动一个内置的Swagger UI服务.
 
 ## Getting Started
 ### Required
