@@ -35,7 +35,7 @@ func DefaultRequestDecoder(r *http.Request, v interface{}) error {
 		return nil
 	}
 	if err = codec.Unmarshal(data, v); err != nil {
-		return errors.BadRequest("CODEC",fmt.Sprintf("body unmarshal", err.Error())
+		return errors.BadRequest("CODEC",fmt.Sprintf("body unmarshal", err.Error()))
 	}
 	return nil
 }
